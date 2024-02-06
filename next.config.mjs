@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    devIndicators: {
+      autoPrerender: false,
+    },
+    // Add more configuration options as needed
+  };
+  
+  export default nextConfig;
